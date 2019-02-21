@@ -1,0 +1,8 @@
+name: netdata
+home: https://github.com/netdata/netdata
+version: 0.1.0
+appVersion: v1.11.1
+description: Real-time performance monitoring, done right! https://my-netdata.io/
+maintainer:
+  name: varyumin
+  email: vryumin@gmail.com
