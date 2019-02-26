@@ -16,11 +16,11 @@ ingress:
     kubernetes.io/tls-acme: "true"
   path: /
   hosts:
-    - netdata.prod.k8s.tcsbank.ru
+    - netdata.k8s.local
   tls:
     - secretName: netdata-tls
       hosts:
-        - netdata.prod.k8s.tcsbank.ru
+        - netdata.k8s.local
 
 master:
   resources: {}
