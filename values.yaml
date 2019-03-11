@@ -6,8 +6,9 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: NodePort
-  nodePort: 32555
+  type: ClusterIP
+  ## If you use NodePort and want to use a personal port. You have to set nodePort
+  # nodePort: 32111
   port: 19999
   annotations: {}
 
