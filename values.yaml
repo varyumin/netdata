@@ -7,8 +7,9 @@ image:
 
 service:
   type: NodePort
-  nodePort:
+  nodePort: 32555
   port: 19999
+  annotations: {}
 
 ingress:
   enabled: true
