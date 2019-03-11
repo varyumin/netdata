@@ -38,6 +38,7 @@ master:
   tolerations: []
 
   affinity: {}
+  env: {}
 
 slave:
   resources: {}
@@ -55,3 +56,4 @@ slave:
       effect: NoSchedule
 
   affinity: {}
+  env: {}
